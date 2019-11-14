@@ -6,6 +6,31 @@ body {
     /* background: linear-gradient(#e66465, #9198e5); */
     /* background: linear-gradient(to top right, blue, pink); */
 }
+
+#welcome {
+    width: 400px;
+    height: 30px;
+
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -200px;
+    margin-top: -200px;
+
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+#slogan{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -200px;
+    margin-top: -200px;
+
+}
  
 #login_frame {
     width: 400px;
@@ -14,7 +39,7 @@ body {
  
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 55%;
     margin-left: -200px;
     margin-top: -200px;
  
