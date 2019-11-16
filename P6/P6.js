@@ -49,10 +49,19 @@ function detect_username(username) {
 };
 
 function detect_phone(phone) {
-  if (phone.length != 10) {
+  if (phone.length != 10 || IsNum(phone) == false) {
     return false;
   }
   else {
     return true;
   };
 };
+
+function IsNum(s)
+{
+    if (s!=null && s!="")
+    {
+        return !isNaN(s);
+    }
+    return false;
+}
