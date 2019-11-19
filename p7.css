@@ -1,0 +1,76 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+section{
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  -webkit-flex:1;
+  -ms-flex:1;
+  flex: 1; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  border-width: 2px;
+  border-style: ridge;
+  padding: 0;
+}
+nav li{
+  font-style: italic;
+  font-size: 2ex;
+  font-weight: bold;
+}
+
+article {
+  -webkit-flex:3;
+  -ms-flex:3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px; /* only for demonstration, should be removed */
+}
+
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.keyword{
+  margin: 30px;
+  border-width: 1px;
+  border-color: black;
+  display: inline-block;
+  height: 12px;
+  width: 100px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
