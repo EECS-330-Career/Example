@@ -1,5 +1,6 @@
-function confirm() {
+function confirm_form() {
   alert("You have finished. Thanks.");
+  console.log("should");
 };
 
 function login() {
@@ -61,11 +62,10 @@ function detect_phone(phone) {
   };
 };
 
-function IsNum(s)
-{
+function IsNum(s) {
     if (s!=null && s!="")
     {
         return !isNaN(s);
     }
     return false;
-}
+};
