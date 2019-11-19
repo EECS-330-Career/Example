@@ -55,3 +55,47 @@ body {
     border-radius: 10px;
     float: left;
 }
+
+
+.results {
+    height: 180px;
+    width: 950px;
+    position: relative;
+        bottom: 50px;
+        
+}
+
+h1 {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 55px;
+    position: relative;
+        bottom: 15px;
+}
+
+h2 {
+    color: #0173B1;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 30px;
+    position: relative;
+        bottom: 6px;
+    color: white;
+}
+
+p {
+    text-align: right;
+    margin-right: 35px;
+    position: relative;
+        bottom: 45px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
