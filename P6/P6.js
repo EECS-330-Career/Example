@@ -4,10 +4,10 @@ function login() {
   var phone = document.getElementById('phone').value;
 
   if (detect_username(username) == false) {
-    alert("Please type a valid username");
+    alert("Please type a valid username. It should be an email address which includes an \'@\' and a \'.\'");
   }
   else if (detect_phone(phone) == false) {
-    alert("Please type a valid phone");
+    alert("Please type a valid phone. The phone should consists of 10 digits.");
   }
   else if (detect_empty(username, phone, password) == true) {
     alert("Please fill in all the values");
