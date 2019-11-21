@@ -28,7 +28,7 @@ body {
  
 #test_frame {
     width: 1000px;
-    height: 731px;
+    height: 501px;
     padding: 12px;
 
     position: absolute;
@@ -72,6 +72,14 @@ body {
 
 }
 
+#question_answered {
+    height: 40px;
+    width: 190px;
+    margin: 1px;
+    background-color: gray;
+    font-size: 10px;
+}
+
 #test_right {
     height: 180px;
     width: 800px;
@@ -81,7 +89,7 @@ body {
 }
 
 #test_foot {
-    height: 80px;
+    height: 30px;
     width: 1000px;
     margin-top: 471px;
     border-bottom-left-radius: 8px;
