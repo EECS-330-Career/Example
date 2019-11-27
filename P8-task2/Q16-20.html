@@ -4,20 +4,20 @@
         <meta charset="UTF-8">
         <title>P8</title>
         <link rel="stylesheet" type="text/css" href="css/test.css"/>
-        <!-- <script type="text/javascript" src="result.js"></script> -->
+        <script type="text/javascript" src="P8.js"></script>
     </head>
- 
-    <body>
+
+    <body onload="load_page(3)">
         <div id="head">
             Career Test
         </div>
         <div id="test_frame">
             <div id="test_left">
-                <div id="question_answered">You have answered___/20</div>
-                <div id="change_question_index" onClick="location='Q1-5.html'">  1-5</div>
-                <div id="change_question_index" onClick="location='Q6-10.html'"> 6-10</div>
-                <div id="change_question_index" onClick="location='Q11-15.html'">11-15</div>
-                <div id="change_question_index" onClick="location='Q16-20.html'">16-20</div>
+              <div id="question_answered">You have answered <href id="count_number">0</href>/20</div>
+              <div id="change_question_index_1" class="Q_part" onClick="change_page('Q1-5.html')">  1-5</div>
+              <div id="change_question_index_2" class="Q_part" onClick="change_page('Q6-10.html')"> 6-10</div>
+              <div id="change_question_index_3" class="Q_part" onClick="change_page('Q11-15.html')">11-15</div>
+              <div id="change_question_index_4" class="Q_part" onClick="change_page('Q16-20.html')">16-20</div>
                 <!-- <div id="change_question_index" onClick="location='Q16-20.html'">submit</div> -->
 
             </div>
@@ -35,123 +35,123 @@
                 </div>
                 <div id="test_question">
                     <div id="test_question_text">
-                        Q1
+                        Q16
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q1" name="Q1">
+                      <input type="radio" id="Q1" name="Q16" onClick="click_radio(16)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q1" name="Q1">
+                      <input type="radio" id="Q1" name="Q16" onClick="click_radio(16)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q1" name="Q1">
+                      <input type="radio" id="Q1" name="Q16" onClick="click_radio(16)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q1" name="Q1">
+                      <input type="radio" id="Q1" name="Q16" onClick="click_radio(16)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q1" name="Q1">
+                      <input type="radio" id="Q1" name="Q16" onClick="click_radio(16)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q1" name="Q1">
+                      <input type="radio" id="Q1" name="Q16" onClick="click_radio(16)">
                     </div>
                 </div>
                 <div id="test_question">
                     <div id="test_question_text">
-                        Q2
+                        Q17
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q2" name="Q2">
+                      <input type="radio" id="Q2" name="Q17" onClick="click_radio(17)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q2" name="Q2">
+                      <input type="radio" id="Q2" name="Q17" onClick="click_radio(17)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q2" name="Q2">
+                      <input type="radio" id="Q2" name="Q17" onClick="click_radio(17)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q2" name="Q2">
+                      <input type="radio" id="Q2" name="Q17" onClick="click_radio(17)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q2" name="Q2">
+                      <input type="radio" id="Q2" name="Q17" onClick="click_radio(17)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q2" name="Q2">
+                      <input type="radio" id="Q2" name="Q17" onClick="click_radio(17)">
                     </div>
                 </div>
                 <div id="test_question">
                     <div id="test_question_text">
-                        Q3
+                        Q18
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q3" name="Q3">
+                      <input type="radio" id="Q3" name="Q18" onClick="click_radio(18)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q3" name="Q3">
+                      <input type="radio" id="Q3" name="Q18" onClick="click_radio(18)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q3" name="Q3">
+                      <input type="radio" id="Q3" name="Q18" onClick="click_radio(18)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q3" name="Q3">
+                      <input type="radio" id="Q3" name="Q18" onClick="click_radio(18)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q3" name="Q3">
+                      <input type="radio" id="Q3" name="Q18" onClick="click_radio(18)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q3" name="Q3">
+                      <input type="radio" id="Q3" name="Q18" onClick="click_radio(18)">
                     </div>
                 </div>
                 <div id="test_question">
                     <div id="test_question_text">
-                        Q4
+                        Q19
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q4" name="Q4">
+                      <input type="radio" id="Q4" name="Q19" onClick="click_radio(19)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q4" name="Q4">
+                      <input type="radio" id="Q4" name="Q19" onClick="click_radio(19)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q4" name="Q4">
+                      <input type="radio" id="Q4" name="Q19" onClick="click_radio(19)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q4" name="Q4">
+                      <input type="radio" id="Q4" name="Q19" onClick="click_radio(19)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q4" name="Q4">
+                      <input type="radio" id="Q4" name="Q19" onClick="click_radio(19)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q4" name="QQ43">
+                      <input type="radio" id="Q4" name="Q19" onClick="click_radio(19)">
                     </div>
                 </div>
                 <div id="test_question">
                     <div id="test_question_text">
-                        Q5
+                        Q20
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q5" name="Q5">
+                      <input type="radio" id="Q5" name="Q20" onClick="click_radio(20)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q5" name="Q5">
+                      <input type="radio" id="Q5" name="Q20" onClick="click_radio(20)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q5" name="Q5">
+                      <input type="radio" id="Q5" name="Q20" onClick="click_radio(20)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q5" name="Q5">
+                      <input type="radio" id="Q5" name="Q20" onClick="click_radio(20)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q5" name="Q5">
+                      <input type="radio" id="Q5" name="Q20" onClick="click_radio(20)">
                     </div>
                     <div id="test_question_btn">
-                        <input type="radio" id="Q5" name="Q5">
+                      <input type="radio" id="Q5" name="Q20" onClick="click_radio(20)">
                     </div>
                 </div>
             </div>
             <div id="test_foot">
-                    <button onClick="location='Q11-15.html'">previous</button>
-                    <button>submit</button>
+                    <button onClick="change_page('Q11-15.html')">previous</button>
+                    <button onClick="change_page('../P7-task3/result.html')">submit</button>
             </div>
             <!-- <div if="test_head">
                 <img src="results-image.jpg" alt="Results percentage chart" class="results"> <br>
@@ -160,6 +160,6 @@
                 <img src="results-image.jpg" alt="Results percentage chart" class="results"> <br>
             </div> -->
         </div>
-        
+
     </body>
 </html>

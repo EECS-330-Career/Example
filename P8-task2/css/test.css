@@ -25,7 +25,7 @@ body {
     text-align: center;
     font-size: 60px;
 }
- 
+
 #test_frame {
     width: 1000px;
     height: 501px;
@@ -63,14 +63,6 @@ body {
     float: left;
 }
 
-#change_question_index {
-    height: 40px;
-    width: 190px;
-    margin: 1px;
-    background-color: gray;
-    /* background-color: rgb(153, 255, 0); */
-
-}
 
 #question_answered {
     height: 40px;
@@ -158,3 +150,16 @@ body {
     margin-top: 34px;
 }
 
+.Q_part{
+  height: 40px;
+  width: 190px;
+  margin: 1px;
+  background-color: gray;
+}
+
+.Q_full{
+  height: 40px;
+  width: 190px;
+  margin: 1px;
+  background-color: green;
+}
