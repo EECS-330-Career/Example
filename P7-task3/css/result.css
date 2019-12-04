@@ -56,6 +56,10 @@ body {
     float: left;
 }
 
+#resImg {
+    border-radius: 10px;
+}
+
 
 .results {
     height: 180px;

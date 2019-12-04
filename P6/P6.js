@@ -1,6 +1,7 @@
 function confirm_form() {
   alert("You have finished. Thanks.");
   console.log("should");
+  window.location.href='../P7-task3/result.html';
 };
 
 function login() {
