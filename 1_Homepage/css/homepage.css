@@ -55,13 +55,12 @@ body {
 }
 
 
-#user {
+#button2 {
     height: 55px;
     width: 85px;
     border-radius: 10px;
 
-    margin-left: 250px;
-    padding-top: 15px;
+    margin-left: 50px;
     /* margin-left: 50px; */
     margin-top: 25px;
     float:left;
@@ -72,7 +71,7 @@ body {
  
 #res_frame {
     width: 1000px;
-    height: 840px;
+    height: 280px;
     padding: 12px;
 
     position: absolute;
