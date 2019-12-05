@@ -1,6 +1,7 @@
 function confirm_form() {
   alert("You have finished. Thanks.");
   console.log("should");
+  window.location.href='../1_Homepage/0_homePage.html';
 };
 
 function login() {

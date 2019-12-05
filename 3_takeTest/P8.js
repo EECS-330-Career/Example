@@ -91,7 +91,7 @@ function change_page(page) {
   storage["count"] = count_list;
   storage["click"] = click_list;
 
-  if (page == '../P7-task3/result.html') {
+  if (page == '../1_Homepage/0_homePage.html') {
     confirm(page);
   }
   else {
